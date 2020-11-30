@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo Hello, world-Jomon is here!
+- script: echo Hello, world-Jomon is here always!
   displayName: 'Run a one-line script'
 
 - script: |
