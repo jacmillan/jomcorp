@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 jobs:
--job: Job1
+- job: Job1
 dependsOn: Job2
 steps:
 - script: echo J1 Hello, world-Jomon is here always here everytime!
@@ -21,7 +21,7 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-  -job: Job2
+  - job: Job2
   steps:
 - script: echo J2 Hello, world-Jomon is here always here everytime!
   displayName: 'Run a one-line script'
